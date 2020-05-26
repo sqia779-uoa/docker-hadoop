@@ -35,3 +35,8 @@ hadoop jar firstTutorial.jar org.myorg.WordCount /user/root/wordcount_data /user
 ```
 hadoop dfs -cat /user/root/wordcount_output
 ```
+
+### TODO
+```
+1. Volume folder and files for easier development
+```
