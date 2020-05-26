@@ -1,1 +1,7 @@
+# Ignore image files
+*.tif
+*.png
+*.jpg
+
+# Ignore data folder
 data/
