@@ -11,6 +11,11 @@ hadoop fs -mkdir /user/root/{YOUR_FOLDER_NAME}
 hadoop fs -put /root/wordcount.txt /user/root/wordcount_data
 ```
 
+**Command to check if the file or directory is created successfully**
+```
+hdfs dfs -ls /user/root
+```
+
 **Export Hadoop clas path**
 ```
 export HADOOP_CLASSPATH=$(hadoop classpath)
